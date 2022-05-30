@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	scroll-behavior: smooth
+}
+
+/*
+
+.header {
+	min-height: 100vh;
+	width: 100%;
+	background-image: url("https://i.redd.it/wmf4pf98d4l61.png");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+*/
+
+.header {
+	min-height: 100vh;
+	width: 100%;
+	background-color: #031d38;
+}
+
+nav {
+	display: flex;
+	padding: 2% 2%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img {
+	width: 200px;
+}
+
+.navLinks {
+	flex: 1;
+	text-align: right;
+}
+
+.navLinks ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+
+.navLinks ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.mainTitleAndIntro {
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.mainTitleAndIntro h1 {
+	font-size: 62px;
+}
+
+.mainTitleAndIntro p {
+	margin: 10px 0 40px;
+	font-size: 15px;
+}
+
+.aboutSection {
+	min-height: 100vh;
+	width: 100%;
+	background-image: url("https://i.redd.it/wmf4pf98d4l61.png");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.aboutMeTitleAndIntro {
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -10%);
+	text-align: center;
+}
+
+.aboutMeTitleAndIntro h1 {
+	padding: 20px;
+	font-size: 40px;
+}
+
+/*
+.aboutMeTitleAndIntro p {
+	
+}
+*/
+
+#searchIcon {
+	padding-left: 20px;
+}
+
+#logo {
+	float: left;
+	width: 200px;
+}

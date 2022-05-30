@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+		<title>Lewis Roach</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<style>
+			.navLinks #home::after {
+				content: "";
+				width: 100%;
+				height: 2px;
+				background: #00ffff;
+				display: block;
+				margin: auto;
+			}
+
+			.navLinks #about::after {
+				content: "";
+				width: 0%;
+				height: 2px;
+				background: #00ffff;
+				display: block;
+				margin: auto;
+				transition: 0.5s;
+			}
+
+			.navLinks #about:hover::after {
+				width: 100%;
+			}
+
+			.navLinks #social::after {
+				content: "";
+				width: 0%;
+				height: 2px;
+				background: #00ffff;
+				display: block;
+				margin: auto;
+				transition: 0.5s;
+			}
+
+			.navLinks #social:hover::after {
+				width: 100%;
+			}
+
+			.navLinks #contact::after {
+				content: "";
+				width: 0%;
+				height: 2px;
+				background: #00ffff;
+				display: block;
+				margin: auto;
+				transition: 0.5s;
+			}
+
+			.navLinks #contact:hover::after {
+				width: 100%;
+			}
+		</style>
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img id="logo" src="LewisRoach-transparent.png" alt="Shushman Inc."></a>
+			<div class="navLinks">
+				<ul>
+					<li><a id="home" class="headingLinks" href="index.html">Home</a></li>
+					<li><a id="about" class="headingLinks" href="#aboutPage">About</a></li>
+					<li><a id="social" class="headingLinks" href="social.html">Social</a></li>
+					<li><a id="contact" class="headingLinks" href="contact.html">Contact</a></li>
+					<li><i id="searchIcon" class="fa fa-search" style="font-size:24px"></i></li>
+				</ul>
+			</div>
+		</nav>
+		
+	<div class="mainTitleAndIntro">
+		<h1><i>Lewis Roach</i></h1>
+		<p>Welcome to the website</p>
+	</div>
+	
+	</section>
+
+	<section class="aboutSection">
+		<div id="aboutPage" class="aboutMeTitleAndIntro">
+			<h1><i>About Me</i></h1>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis eum quisquam ex accusamus explicabo reiciendis blanditiis assumenda sed nesciunt sint nostrum dolore sunt deserunt libero et, facere alias corporis illo! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis eum quisquam ex accusamus explicabo reiciendis blanditiis assumenda sed nesciunt sint nostrum dolore sunt deserunt libero et, facere alias corporis illo! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis eum quisquam ex accusamus explicabo reiciendis blanditiis assumenda sed nesciunt sint nostrum dolore sunt deserunt libero et, facere alias corporis illo!</p>
+		</div>
+	</section>
+</body>
+</html>
